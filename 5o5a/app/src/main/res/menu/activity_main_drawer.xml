@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:checked="true"
+            android:icon="@drawable/ic_fiber_manual_record_black_24dp"/>
+        <item
+            android:id="@+id/nav_mom"
+            android:title="@string/mom_and_dad"
+            android:checked="false"
+            android:icon="@drawable/ic_fiber_manual_record_black_24dp"/>
+        <item
+            android:id="@+id/nav_aunt"
+            android:title="@string/aunt_amal"
+            android:checked="false"
+            android:icon="@drawable/ic_fiber_manual_record_black_24dp"/>
+        <item
+            android:id="@+id/nav_aya"
+            android:title="@string/aya"
+            android:checked="false"
+            android:icon="@drawable/ic_fiber_manual_record_black_24dp"/>
+        <item
+            android:id="@+id/nav_bombo"
+            android:title="@string/bombo"
+            android:checked="false"
+            android:icon="@drawable/ic_fiber_manual_record_black_24dp"/>
+    </group>
+
+
+</menu>

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.amonsul.muhammad.a5o5a.MomAndDadFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/mom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/mom_headline"
+        android:textSize="30sp"
+        android:textColor="@color/nliveo_black"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/mom_sub_headline"
+        android:textColor="@color/nliveo_black"
+        android:layout_gravity="right"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/mom_body"
+        android:textColor="@color/nliveo_black"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>
+    <com.amonsul.muhammad.a5o5a.MyGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mom_gridview"
+        android:layout_below="@id/mom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center" />
+</RelativeLayout>
+
